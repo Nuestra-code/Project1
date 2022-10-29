@@ -1,4 +1,21 @@
-.nav {
-    display: flex;
-    justify-content: end;
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.navbar {
+    background-color: #3CB371;
+}
+
+
+#coLogo {
+    border-radius: 10px;
+}
+
+.fbLogo {
+    border-radius: 900px;
+}
+
+#footer {
+    background-color: #3CB371;
 }

@@ -4,38 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+   
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>Contact Us</title>
+
 </head>
-<body>
+<body class="shadow-s m-5 p-5">
 
-    <header class="m-5 p-5">
-        <nav class="navbar bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="/docs/5.2/assets/brand/bootstrap-logo.svg"  width="30" height="24" class="d-inline-block align-text-top">
-                LVL Insurance Services
-              </a>
+<!-- NAVBAR -->
+    <div>
+        <div>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="images/LVL.jpg"  width="50px" height="50px"  id="coLogo">
+                      LVL Insurance Services
+                    </a>
+      
+                    <ul class="nav justify-content-center">
+      
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ProductServices.html">Product & Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                      </li>
+                      
+                    </ul>
+                </div>
+            </nav>
+    </div>
 
-              <ul class="nav">
-
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="ProductService.html">Product & Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="ContactUs.html">Contact Us</a>
-                </li>
-                
-              </ul>
-            </div>
-          </nav>
-    </header>
+<!-- FOOTER -->
+    <section id="footer" class="pt-1">
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <div class="row align-items-center m-5 text-white">
+      
+            <div class="col-6">
+                <p class="fw-bold text-start">
+                    CONTACT US
+                </p>
+                <p>
+                    Address: 
+                    9 Jashville 1 Subdivision, Aznar Road, Poblacion, Pardo, Cebu City, Cebu, 6000
+                </p>
+                <p>
+                    Contact: (032) 415-3379
+                </p>
+                <p>
+                    <form action="mailto: lelisretuya@gmail.com" method="GET">
+                        <button class="btn btn-primary" type="submit">EMAIL ME</button>
+                    </form>
+                </p>
+            </div>
 
+            <div class="col-2 border-start">
+                <p class="fw-bold">
+                    CONNECT WITH US
+                </p>
+
+            <div class="row align-items-center">
+                <img src="images/facebook.png" alt="" class="fbLogo">
+            </div>
+
+            <footer class= "m-1 text-start">
+                © 2022 LVL Insurance Services
+            </footer>
+
+        </div>
+    </section>
 </body>
 </html>
