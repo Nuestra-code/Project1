@@ -2,6 +2,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-image: url(https://media.istockphoto.com/photos/white-gray-background-with-soft-watercolor-texture-picture-id1305059547?b=1&k=20&m=1305059547&s=170667a&w=0&h=gxV7X0H8A6ycnb7poz_gZawAoZ6JEi1efmwty3_n2sA=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .navbar {
     background-color: #3CB371;
 }
