@@ -1,5 +1,6 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,9 +12,12 @@ body {
     background-color: #3CB371;
 }
 
+nav {
+    font-size: larger;
+}
 
 #coLogo {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .fbLogo {
@@ -29,3 +33,54 @@ body {
     border-radius: 10px;
 }
 
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) 
+{
+    nav { 
+        overflow: hidden;
+        background-color: #0066FF;
+        position: relative;
+    }
+
+    nav .nav{
+        display: none;
+    }
+
+    nav a {
+        color: white;
+        padding: 10px;
+        display: block;
+    }
+
+    nav a.icon {
+        background-color: #0066FF;
+        display: block;
+        position: relative;
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) 
+{
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) 
+{
+    
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) 
+{
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) 
+{
+
+} */
